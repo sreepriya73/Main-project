@@ -19,7 +19,7 @@ const ProfilePage = () => {
         setUserData(response.data);
       } catch (error) {
         console.error("Error fetching user data:", error);
-        alert("Failed to load user data. Please try again.");
+        alert("Failed to load user data. Please try again.")
       } finally {
         setLoading(false);
       }
